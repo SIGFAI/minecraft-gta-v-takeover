@@ -1,0 +1,7 @@
+Moments the clip must show (ticked only when seen on screenshots of the demo):
+[x] 1. Aerial shot over the block-built Los Santos at sunset, title "GRAND THEFT MINECRAFT V", then street level with cash and wanted stars on the HUD.
+[x] 2. Pistol shots at pedestrians (muzzle sparks, tracer, hit sparks, knockback): the WASTED screen, cash drops, stars rise, LSPD officers in blue armor charge in (Minecraft zombies and villagers reacting to the pistol, cars running pedestrians over).
+[x] 3. Story missions: bank guards (mission 1) and survive in the palm park while cops attack (mission 2), objective text in the HUD, chat briefing.
+[x] 4. Smoky Cruiser, a block-built police car with a flashing light bar, is shot up and explodes: fireball, MISSION PASSED "Boom Goes The Pudding".
+[x] 5. Boss Big Smoky (double-size armored zombie, boss bar, phase two reinforcements) falls, THE END card, golden pistol reward.
+Weak: the golden pistol is only visible in the hotbar after the boss falls; the car model is small in frame during the fast cruiser fight.

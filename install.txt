@@ -1,0 +1,1 @@
+Install Fabric for Minecraft 26.3, then put the mod jar and Fabric API in your mods folder. Start a new survival world: Los Santos is built at spawn, you get a pistol, and the first job starts by itself.
