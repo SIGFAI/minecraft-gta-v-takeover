@@ -1,8 +1,14 @@
 {
   "id": "sigf/minecraft-gta-v-takeover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "GTA V Takeover",
   "tagline": "Bring GTA V into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Do jobs across Los Santos: reach each marker, take out the guards and cops, then beat Big Smoky.",
+    "Right-click with the pistol to shoot; hurting pedestrians or cars raises your wanted stars and brings the police.",
+    "Follow the glowing marker beam and the mission objective shown above your hotbar.",
+    "You start at the city crossroads with a pistol, and the first mission begins a few seconds later."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -29,10 +35,13 @@
       "strategy": "mrpack",
       "pack": {
         "src": "minecraft-gta-v-takeover.mrpack",
-        "url": "https://github.com/SIGFAI/minecraft-gta-v-takeover/releases/download/v1.0.0/minecraft-gta-v-takeover.mrpack",
-        "sha256": "c692586527e85585887187cc65c107790c27205ce68d20a8598fb27cee212a8f",
-        "size": 308291
-      }
+        "url": "https://github.com/SIGFAI/minecraft-gta-v-takeover/releases/download/v1.0.1/minecraft-gta-v-takeover.mrpack",
+        "sha256": "b34c852a9d86e0f4a6d1b596d8f74a801f832c4382790360858a2bdd7ac42b0b",
+        "size": 308414
+      },
+      "jvm_args": [
+        "-Dsigf.player=1"
+      ]
     }
   ],
   "launch": [
@@ -44,9 +53,9 @@
   "files": [
     {
       "name": "minecraft-gta-v-takeover.mrpack",
-      "url": "https://github.com/SIGFAI/minecraft-gta-v-takeover/releases/download/v1.0.0/minecraft-gta-v-takeover.mrpack",
-      "sha256": "c692586527e85585887187cc65c107790c27205ce68d20a8598fb27cee212a8f",
-      "size": 308291
+      "url": "https://github.com/SIGFAI/minecraft-gta-v-takeover/releases/download/v1.0.1/minecraft-gta-v-takeover.mrpack",
+      "sha256": "b34c852a9d86e0f4a6d1b596d8f74a801f832c4382790360858a2bdd7ac42b0b",
+      "size": 308414
     }
   ],
   "source": {
@@ -63,7 +72,7 @@
     "id": "minecraft",
     "status": "draft"
   },
-  "built_at": "2026-10-05T18:57:58.914Z",
+  "built_at": "2026-10-05T22:00:00.985Z",
   "server": {
     "game": "minecraft",
     "mc": "26.3",
@@ -71,8 +80,5 @@
     "ram_gb": 2,
     "max_players": 10,
     "pack": "minecraft-gta-v-takeover.mrpack"
-  },
-  "notes": [
-    "Install Fabric for Minecraft 26.3, then put the mod jar and Fabric API in your mods folder. Start a new survival world: Los Santos is built at spawn, you get a pistol, and the first job starts by itself."
-  ]
+  }
 }
