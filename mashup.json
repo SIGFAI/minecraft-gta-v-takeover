@@ -1,0 +1,78 @@
+{
+  "id": "sigf/minecraft-gta-v-takeover",
+  "version": "1.0.0",
+  "name": "GTA V Takeover",
+  "tagline": "Bring GTA V into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "gta5",
+      "role": "guest",
+      "label": "GTA V"
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-gta-v-takeover.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-gta-v-takeover/releases/download/v1.0.0/minecraft-gta-v-takeover.mrpack",
+        "sha256": "c692586527e85585887187cc65c107790c27205ce68d20a8598fb27cee212a8f",
+        "size": 308291
+      }
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-gta-v-takeover.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-gta-v-takeover/releases/download/v1.0.0/minecraft-gta-v-takeover.mrpack",
+      "sha256": "c692586527e85585887187cc65c107790c27205ce68d20a8598fb27cee212a8f",
+      "size": 308291
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-gta-v-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T18:57:58.914Z",
+  "server": {
+    "game": "minecraft",
+    "mc": "26.3",
+    "loader": "fabric@0.19.5",
+    "ram_gb": 2,
+    "max_players": 10,
+    "pack": "minecraft-gta-v-takeover.mrpack"
+  },
+  "notes": [
+    "Install Fabric for Minecraft 26.3, then put the mod jar and Fabric API in your mods folder. Start a new survival world: Los Santos is built at spawn, you get a pistol, and the first job starts by itself."
+  ]
+}
